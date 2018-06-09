@@ -225,7 +225,6 @@
     NSLog(@"自定义消息:%@",userInfo);
 }
 
-// iOS 7~ iOS 10 普通消息推送回调方法（JPush发送通知）
 - (void)JPushApplication:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo fetchCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler {
     
     NSLog(@"iOS 7推送内容aps:%@",userInfo);
